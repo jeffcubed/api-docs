@@ -2,8 +2,8 @@
 
 ```js
 {
-  id: INTEGER,
-  user_id: INTEGER,
+	id: INTEGER,
+	user_id: INTEGER,
 	access_token: STRING,	// The bearer token used to authenticate all requests
 	token_type: STRING,	// Always "bearer",
 	expires_at: STRING,	// A timestamp of when this token expires,
