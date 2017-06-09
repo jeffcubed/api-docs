@@ -6,6 +6,13 @@
 
 ---
 
+### Endpoints
+##### [users](endpoints/users.md) | [access_tokens](endpoints/access_tokens.md) | [bots](endpoints/bots.md)
+<br>
+Methods marked with a :lock: symbol must be called with valid authentication in the form of a Authentication header. The header must be in the form of `Authentication: Bearer TOKEN`
+
+---
+
 ### Default Responses
 ##### Successful
 ```js
