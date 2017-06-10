@@ -1,6 +1,6 @@
-# /access_tokens
+# /verification_tokens
 
-:lock: `POST /access_tokens/:token`  
+:lock: `POST /verification_tokens/:token`  
 Validates your account  
 Returns the associated [user account](../models/User.md)  
 Parameters:  
