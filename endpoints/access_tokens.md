@@ -5,11 +5,11 @@ Creates a new access token (logs the user in)
 Returns the generated access token token  
 Parameters:  
 
-| Key        | Type   | Description                  | Example             |
-|------------|--------|------------------------------|---------------------|
-| grant_type | STRING | The token type to generate   | "bearer"            |
-| email      | STRING | The account's e-mail address | "matmen@menchez.me" |
-| password   | STRING | The account's password       | "secret12345"       |
+| Key        | Type   | Description             | Example       |
+|------------|--------|-------------------------|---------------|
+| grant_type | STRING | The authentication type | "password"    |
+| username   | STRING | The account's username  | "matmen"      |
+| password   | STRING | The account's password  | "secret12345" |
 
 ---
 

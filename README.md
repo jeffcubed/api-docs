@@ -2,12 +2,12 @@
 ---
 
 ### Models
-##### [User](models/User.md) | [AccessToken](models/AccessToken.md) | [Bot](models/Bot.md)
+##### [User](models/User.md) | [AccessToken](models/AccessToken.md) | [VerificationToken](models/VerificationToken.md) | [Bot](models/Bot.md)
 
 ---
 
 ### Endpoints
-##### [users](endpoints/users.md) | [access_tokens](endpoints/access_tokens.md) | [bots](endpoints/bots.md)
+##### [users](endpoints/users.md) | [access_tokens](endpoints/access_tokens.md) | [verification_tokens](endpoints/verification_tokens.md) | [bots](endpoints/bots.md)
 <br>
 Methods marked with a :lock: symbol must be called with valid authentication in the form of a Authentication header. The header must be in the form of `Authentication: Bearer TOKEN`
 

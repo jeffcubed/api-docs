@@ -9,11 +9,11 @@
   short_description: STRING,
   long_description: STRING,
   avatar_url: STRING,
-  website_url: STRING,  // Optional
-  repo_url: STRING, // Optional
+  website_url: STRING | null,
+  repo_url: STRING | null,
   help_command: STRING,
-  library: STRING,  // Optional
-  spotlight: BOOLEAN, // Wether this bot is in a spotlight, aka advertised/pinned
+  library: STRING | null,
+  spotlight: BOOLEAN, // Wether this bot is advertised/pinned
   active: BOOLEAN, // Wether this bot has been checked by admins
   created_at: STRING,
   updated_at: STRING

@@ -7,14 +7,13 @@ Returns an array of [user objects](/models/User.md) (matching the given URL para
 
 `POST /users`  
 Creates a new user account  
-Returns the created account  
+Returns a [verification token](../VerificationToken.md)    
 Parameters:  
 
-| Key      | Type   | Description                        | Example             |
-|----------|--------|------------------------------------|---------------------|
-| email    | STRING | The email address to use for login | "matmen@menchez.me" |
-| username | STRING | Your public display name           | "matmen"            |
-| password | STRING | Your password                      | "secret12345"       |
+| Key      | Type   | Description              | Example       |
+|----------|--------|--------------------------|---------------|
+| username | STRING | Your public display name | "matmen"      |
+| password | STRING | Your password            | "secret12345" |
 
 ---
 

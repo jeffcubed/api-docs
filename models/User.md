@@ -2,10 +2,10 @@
 ```js
 {
   id: INTEGER,
-  email: STRING,  // Optional
   username: STRING,
+  discord_id: STRING | null,
   moderator: BOOLEAN,
-  active: BOOLEAN, // Wether this account's email address has been verified
+  active: BOOLEAN, // Wether this account has been verified via discord
   created_at: STRING,
   updated_at: STRING
 }
