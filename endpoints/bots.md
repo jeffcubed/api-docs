@@ -19,6 +19,7 @@ Parameters:
 | website_url       | ?STRING | A URL pointing to the bot's website (optional)        | "https://fbot.menchez.me/"                                                                     |
 | repo_url          | ?STRING | A URL pointing to the bot's Git repository (optional) | "https://github.com/xmatmen/fbot"                                                              |
 | library           | ?STRING | The library the bot is written in                     | "discord.js"                                                                                   |
+| help_command           | STRING | The Help Command for the Bot                     | "f!help"                                                                                   |
 
 ---
 
