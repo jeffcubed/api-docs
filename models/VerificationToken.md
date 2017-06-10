@@ -1,4 +1,4 @@
-# AccessToken
+# VerificationToken
 
 ```js
 {
