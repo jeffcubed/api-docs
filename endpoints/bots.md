@@ -19,7 +19,7 @@ Parameters:
 | website_url       | ?STRING | A URL pointing to the bot's website (optional)        | "https://fbot.menchez.me/"                                                                     |
 | repo_url          | ?STRING | A URL pointing to the bot's Git repository (optional) | "https://github.com/xmatmen/fbot"                                                              |
 | library           | ?STRING | The library the bot is written in                     | "discord.js"                                                                                   |
-| help_command           | STRING | The Help Command for the Bot                     | "f!help"                                                                                   |
+| help_command      | STRING  | The bot's help command                                | "f!help"                                                                                       |
 
 ---
 
@@ -41,6 +41,7 @@ Parameters:
 | website_url       | ?STRING | A URL pointing to the bot's website (optional)        | "https://fbot.menchez.me/"                                                                     |
 | repo_url          | ?STRING | A URL pointing to the bot's Git repository (optional) | "https://github.com/xmatmen/fbot"                                                              |
 | library           | ?STRING | The library the bot is written in                     | "discord.js"                                                                                   |
+| help_command      | STRING  | The bot's help command                                | "f!help"                                                                                       |
 | active            | BOOLEAN | Wether this bot has been approved (Mod only)          | true                                                                                           |
 | spotlight         | BOOLEAN | Wether this bot is in a spotlight (Mod only)          | false                                                                                          |
 
