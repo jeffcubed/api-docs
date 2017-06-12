@@ -1,3 +1,4 @@
+NotsoSuper has no dick
 # /bots
 
 `GET /bots` or `GET /bots?key=value`  
